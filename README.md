@@ -1,3 +1,4 @@
 # Projeto_Modelo_ML-Titanic
 Projeto de criação de um modelo de Machine Learning utilizando o dataset: "Titanic - Machine Learning from Disaster" do Kaggle para predizer quais passageiros sobreviveriam através de seus dados (features).
+Projeto_ML-Titanic.ipynb é o Jupyter Notebook e o arquivo train.csv é o DataSet.
 No projeto foi realizado a visualização de dados do dataframe através da plotagem de gráficos; preparação dos dados: remoção de features irrelevantes para o modelo de ML; preenchimento de dados nulos no dataframe; One Hot Encoding (representação das features qualitativas de forma numérica); Separação treino e teste do dataframe; Normalização (deixa as features na mesma escala); seleção das features mais correlacionadas à label "Survived" usando RFECV; Hyperparameter Tuning; treinamento do modelo de ML utilizando o Random Forest; cross validation com random search; teste e avaliação do modelo de ML.
